@@ -1,6 +1,7 @@
 import pyodbc
 import pandas as pd
 
+
 conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=ITDEV22;'
                       'Database=NMLCustomerInfo;'
